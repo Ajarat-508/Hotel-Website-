@@ -1,11 +1,11 @@
-/* Reset */
+/* global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Utility Classes (will be used throughout the site) */
+/* Utility Classes (was  used throughout the site) */
 .container {
     margin: auto;
     max-width: 1600px;
@@ -28,7 +28,7 @@
     background: #1d4567;
     padding: 13px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -43,26 +43,27 @@
     color: #333;
 }
 
-/* .btn btn-light{
-    background-color: #1d4567;
-} */
+
 .bg-dark {
     background: #fff;
     color: black;
 }
 
 .bg-light {
-    background: #acd4d4;
-    color: #333;
+    background: #143b5e;
+    color: #fff;
+    opacity: 0.9;
 }
 
 .bg-primary {
-    color: #333;
     background: #f4c46c;
+    opacity: 0.7;
+    color: #000;
 }
 
 .bg-colored{
     background-color: #143b5e;
+
 }
 
 .clr {
@@ -259,7 +260,7 @@ p {
 
 #testimonials {
     height: 100%;
-    background: url('../Images/test-bg.jpeg') no-repeat center center/cover;
+    background: url('../Images/aboutbg-1.jpg') no-repeat center center/cover;
     padding-top: 40px;
 }
 

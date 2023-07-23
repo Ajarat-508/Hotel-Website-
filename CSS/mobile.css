@@ -51,24 +51,18 @@
     text-align: justify;
 }
 
-/* Features */
-/* #features{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-
 .box {
     float: none;
     width: 100%;
 }
 
+.btn{
+    padding: 10px 15px;
+}
+
 #middle-box {
-    background: #fff;
-    color: #d8db0e;
+    background: gray;
+    color: #fff;
 }
 
 /* About Info */
@@ -84,11 +78,9 @@
 
 /* Contact Boxes */
 
-#contact-info .box-1,
-#contact-info .box-2,
-#contact-info .box-3 {
+#contact-info .box {
     float: none;
     border-bottom: #555 dotted 2px;
-    /* text-align: center; */
-    align-content: center;
+    text-align: center;
+    color: #fff;
 }

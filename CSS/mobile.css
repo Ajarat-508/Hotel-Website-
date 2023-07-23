@@ -3,7 +3,7 @@
 #navbar .logo {
     float: none;
     text-align: center;
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 #navbar ul,
@@ -28,10 +28,11 @@
 }
 
 /* Home Info */
-
+/* 
 #home-info {
     height: 550px;
-}
+    margin-top: 20px;
+} */
 
 #home-info .info-img {
     display: none;
@@ -40,16 +41,32 @@
 #home-info .info-content {
     float: none;
     width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+#home-info .info-content p {
+    text-align: justify;
 }
 
 /* Features */
+/* #features{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 .box {
     float: none;
     width: 100%;
 }
 
-#first-box {
+#middle-box {
     background: #fff;
     color: #d8db0e;
 }
@@ -67,6 +84,11 @@
 
 /* Contact Boxes */
 
-#contact-info .box {
+#contact-info .box-1,
+#contact-info .box-2,
+#contact-info .box-3 {
+    float: none;
     border-bottom: #555 dotted 2px;
+    /* text-align: center; */
+    align-content: center;
 }

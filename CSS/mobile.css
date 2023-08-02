@@ -84,3 +84,18 @@
     text-align: center;
     color: #fff;
 }
+
+
+/* Gallery section */
+
+#gallery .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+div .gallery img{
+    max-height: 30vh;
+}
